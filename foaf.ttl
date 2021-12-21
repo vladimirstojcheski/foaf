@@ -4,8 +4,8 @@
 
 <https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl>
   a foaf:PersonalProfileDocument ;
-  foaf:maker <https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl#me> ;
-  foaf:primaryTopic <https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl#me> .
+  foaf:maker <https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl> .
 
 <https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl#me>
   a foaf:Person ;
