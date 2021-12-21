@@ -23,9 +23,9 @@
   foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
   foaf:knows [
     a foaf:Person ;
-    foaf:name "Veronika Stefanovska" ;
-    foaf:mbox_sha1sum "9a70fc04211c2b674b1733b846ab782e68b2fe6a" ;
-    rdfs:seeAlso <https://www.dropbox.com/s/2iepas06yzok58m/foaf.ttl?dl=1>
+    foaf:name "Strasho Naumov" ;
+    foaf:mbox_sha1sum "2a6a26d4a07c593dd6e4abab68c4135f892296a6" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/naumovvvs/foaf/main/foaf.ttl>
   ], [
     a foaf:Person ;
     foaf:name "Mile Jankuloski" ;
