@@ -1,1 +1,34 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/vladimirstojcheski/foaf/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Vladimir Stojcheski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Vladimir" ;
+  foaf:family_name "Stojcheski" ;
+  foaf:nick "Cimero" ;
+  foaf:mbox_sha1sum "8956ad8681dc4c847f65434f19e61796cd29b166" ;
+  foaf:homepage <https://github.com/vladimirstojcheski> ;
+  foaf:phone <tel:072279877> ;
+  foaf:workplaceHomepage <https://www.telekom.mk/> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Veronika Stefanovska" ;
+    foaf:mbox_sha1sum "9a70fc04211c2b674b1733b846ab782e68b2fe6a" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/2iepas06yzok58m/foaf.ttl?dl=1>
+  ], [
+    a foaf:Person ;
+    foaf:name "Mile Jankuloski" ;
+    foaf:mbox_sha1sum "3fbfedd246499d2bd24ac0c3ab3d65dc279c843e" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/Strailko/foaf/main/foaf.ttl?fbclid=IwAR1dgVtCAbNSNS3mpL6lz10-UHYdYjGQP4imknV2cbP-sMkjr3S3kMufdas>
+  ] .
