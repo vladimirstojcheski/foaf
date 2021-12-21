@@ -30,5 +30,5 @@
     a foaf:Person ;
     foaf:name "Mile Jankuloski" ;
     foaf:mbox_sha1sum "3fbfedd246499d2bd24ac0c3ab3d65dc279c843e" ;
-    rdfs:seeAlso <https://raw.githubusercontent.com/Strailko/foaf/main/foaf.ttl?fbclid=IwAR1dgVtCAbNSNS3mpL6lz10-UHYdYjGQP4imknV2cbP-sMkjr3S3kMufdas>
+    rdfs:seeAlso <https://raw.githubusercontent.com/Strailko/foaf/main/foaf.ttl>
   ] .
